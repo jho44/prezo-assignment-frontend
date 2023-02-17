@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  flex-direction: column;
+}
+
+.slide-container {
+  overflow: scroll;
+  border-style: solid;
+  width: 240px;
+  border-radius: 4px;
+}
+
+#coverup {
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  height: 132px;
+  width: 30%;
+}
+
+.slide-inner-container {
+  height: 80vh;
+}
+
+.slide {
+  background-color: white;
+  height: 130px;
+  border: 1px #e0e0e0 solid;
+  margin: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: calc(100% - 40px);
+}
+
+.slide:hover {
+  cursor: pointer;
+}
+
+.landing {
+  height: 3px;
+}
+
+.landing-container {
+  padding: 9px 5px;
+}
